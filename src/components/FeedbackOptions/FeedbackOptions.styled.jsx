@@ -14,4 +14,7 @@ export const Button = styled.button`
     text-transform: capitalize;
     letter-spacing: 1px;
     font-size: 14px;    
+    :active {
+        background-color: lightblue;
+    }
 `;
